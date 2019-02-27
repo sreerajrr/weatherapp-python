@@ -19,21 +19,28 @@ def weather_home(request,*args,**kwargs):
     form = CityForm()
     weather_data = []
 
+    # try:
     for cit in cities:
-       # print(cit)
+        # print(cit)
         r = requests.get(url.format(cit)).json()
-        context = {
-            'city': cit.name,
-            'temperature': r['main']['temp'],
-            'description' : r['weather'][0]['description'],
-            'icon' : r['weather'][0]['icon'],
+        try:
+            context = {
+                'city': cit.name,
+                'temperature': r['main']['temp'],
+                'description' : r['weather'][0]['description'],
+                'icon' : r['weather'][0]['icon'],
 
-            # 'city': cit,
-            # 'temperature': 'gg',
-            # 'description': 'guy',
-            # 'icon': 551,
-        }
-        weather_data.append(context)
+                    # 'city': cit,
+                    # 'temperature': 'gg',
+                    # 'description': 'guy',
+                    # 'icon': 551,
+            }
+            weather_data.append(context)
+        except:
+            city.objects.get(name = cit).delete()
     #print(weather_data)
     context1 = {'weather_data' : weather_data, 'form':form ,}
+    # except:
+    #
+    # context1 = {'weather_data': weather_data, 'form': form, }
     return render(request, 'weather/weather.html', context1)
