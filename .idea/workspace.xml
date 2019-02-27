@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e09746b-0932-48d1-91c1-4c773e88bc2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/weatherapp/weather/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/weatherapp/weather/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weatherapp/weatherapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/weatherapp/weatherapp/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/weatherapp/weatherapp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+              <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -31,7 +31,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/weatherapp/weather/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="444">
@@ -138,10 +138,10 @@
         <option value="$PROJECT_DIR$/src/weatherapp/weatherapp/urls.py" />
         <option value="$PROJECT_DIR$/src/weatherapp/weather/admin.py" />
         <option value="$PROJECT_DIR$/src/weatherapp/weather/templates/weather/weather.html" />
-        <option value="$PROJECT_DIR$/src/weatherapp/weatherapp/settings.py" />
         <option value="$PROJECT_DIR$/src/weatherapp/weather/models.py" />
         <option value="$PROJECT_DIR$/src/weatherapp/weather/forms.py" />
         <option value="$PROJECT_DIR$/src/weatherapp/weather/views.py" />
+        <option value="$PROJECT_DIR$/src/weatherapp/weatherapp/settings.py" />
       </list>
     </option>
   </component>
@@ -366,13 +366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/weatherapp/weatherapp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/weatherapp/weather/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -414,6 +407,13 @@
           <folding>
             <element signature="e#1#16#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weatherapp/weatherapp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="56" />
         </state>
       </provider>
     </entry>
