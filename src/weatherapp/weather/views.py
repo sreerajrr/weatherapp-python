@@ -39,6 +39,7 @@ def weather_home(request,*args,**kwargs):
         except:
             city.objects.get(name = cit).delete()
     #print(weather_data)
+    weather_data.reverse()
     context1 = {'weather_data' : weather_data, 'form':form ,}
     # except:
     #
